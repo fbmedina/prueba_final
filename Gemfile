@@ -27,6 +27,8 @@ gem 'dotenv-rails'
 
 gem 'devise'
 
+gem 'kaminari'
+
 
 group :development, :test do
   gem 'byebug'
