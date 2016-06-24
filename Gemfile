@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.6'
 
+gem 'carrierwave'
+
 gem 'pg', '~> 0.15'
 
 gem 'sass-rails', '~> 5.0'
@@ -22,6 +24,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'dotenv-rails'
 
 gem 'devise'
+
 
 group :development, :test do
   gem 'byebug'
