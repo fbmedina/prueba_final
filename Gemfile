@@ -29,6 +29,7 @@ gem 'devise'
 
 gem 'kaminari'
 
+gem 'faker'
 
 group :development, :test do
   gem 'byebug'
