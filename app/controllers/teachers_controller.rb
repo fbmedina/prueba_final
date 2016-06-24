@@ -5,4 +5,9 @@ class TeachersController < ApplicationController
 
   def show
   end
+
+  private
+    def store_params
+      params.require(:user).permit(:name, :email, :profile_photo, :role)
+    end
 end
