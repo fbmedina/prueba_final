@@ -15,6 +15,7 @@ User.destroy_all
     password: "password",
     cv: Faker::Lorem.sentence(7),
     ranking: Faker::Number.between(1, 5),
+    category: ["Matemática", "Lenguaje", "Historia", "Ciencias"].sample,
     role: 2
   )
 end
