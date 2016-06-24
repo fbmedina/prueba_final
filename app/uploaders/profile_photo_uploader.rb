@@ -27,7 +27,7 @@ class ProfilePhotoUploader < CarrierWave::Uploader::Base
   # end
 
   def default_url 
-    default_profile_photo.jpg
+    "default_profile_photo.jpg"
   end
 
   # Process files as they are uploaded:
